@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81932DA21A90B78000AD2330 /* ActionSheetDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932D9D1A90B78000AD2330 /* ActionSheetDelegate.swift */; };
+		81932DA31A90B78000AD2330 /* ActionSheetDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932D9D1A90B78000AD2330 /* ActionSheetDelegate.swift */; };
+		81932DA41A90B78000AD2330 /* AlertDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932D9E1A90B78000AD2330 /* AlertDelegate.swift */; };
+		81932DA51A90B78000AD2330 /* AlertDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932D9E1A90B78000AD2330 /* AlertDelegate.swift */; };
+		81932DA61A90B78000AD2330 /* AlertIOS7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932D9F1A90B78000AD2330 /* AlertIOS7.swift */; };
+		81932DA71A90B78000AD2330 /* AlertIOS7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932D9F1A90B78000AD2330 /* AlertIOS7.swift */; };
+		81932DA81A90B78000AD2330 /* AlertIOS8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932DA01A90B78000AD2330 /* AlertIOS8.swift */; };
+		81932DA91A90B78000AD2330 /* AlertIOS8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932DA01A90B78000AD2330 /* AlertIOS8.swift */; };
+		81932DAA1A90B78000AD2330 /* DelegateBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932DA11A90B78000AD2330 /* DelegateBase.swift */; };
+		81932DAB1A90B78000AD2330 /* DelegateBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932DA11A90B78000AD2330 /* DelegateBase.swift */; };
+		81932DAF1A90B78700AD2330 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932DAC1A90B78700AD2330 /* Alert.swift */; };
+		81932DB01A90B78700AD2330 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932DAC1A90B78700AD2330 /* Alert.swift */; };
+		81932DB11A90B78700AD2330 /* AlertFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932DAD1A90B78700AD2330 /* AlertFactory.swift */; };
+		81932DB21A90B78700AD2330 /* AlertFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932DAD1A90B78700AD2330 /* AlertFactory.swift */; };
+		81932DB31A90B78700AD2330 /* StandardAlertFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932DAE1A90B78700AD2330 /* StandardAlertFactory.swift */; };
+		81932DB41A90B78700AD2330 /* StandardAlertFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932DAE1A90B78700AD2330 /* StandardAlertFactory.swift */; };
 		819C93821A90AE9F00403B74 /* SwiftAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 819C93811A90AE9F00403B74 /* SwiftAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		819C93881A90AE9F00403B74 /* SwiftAlert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 819C937C1A90AE9F00403B74 /* SwiftAlert.framework */; };
 		819C938F1A90AE9F00403B74 /* SwiftAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819C938E1A90AE9F00403B74 /* SwiftAlertTests.swift */; };
-		819C939A1A90B06700403B74 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819C93991A90B06700403B74 /* Alert.swift */; };
-		819C939B1A90B06700403B74 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819C93991A90B06700403B74 /* Alert.swift */; };
-		819C939D1A90B10700403B74 /* AlertIOS8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819C939C1A90B10700403B74 /* AlertIOS8.swift */; };
-		819C939E1A90B10700403B74 /* AlertIOS8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819C939C1A90B10700403B74 /* AlertIOS8.swift */; };
-		819C93A21A90B13400403B74 /* AlertIOS7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819C93A11A90B13400403B74 /* AlertIOS7.swift */; };
-		819C93A31A90B13400403B74 /* AlertIOS7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819C93A11A90B13400403B74 /* AlertIOS7.swift */; };
-		819C93A51A90B1F400403B74 /* DelegateBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819C93A41A90B1F400403B74 /* DelegateBase.swift */; };
-		819C93A61A90B1F400403B74 /* DelegateBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819C93A41A90B1F400403B74 /* DelegateBase.swift */; };
-		819C93A81A90B21E00403B74 /* AlertDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819C93A71A90B21E00403B74 /* AlertDelegate.swift */; };
-		819C93A91A90B21E00403B74 /* AlertDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819C93A71A90B21E00403B74 /* AlertDelegate.swift */; };
-		819C93AB1A90B27400403B74 /* ActionSheetDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819C93AA1A90B27400403B74 /* ActionSheetDelegate.swift */; };
-		819C93AC1A90B27400403B74 /* ActionSheetDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819C93AA1A90B27400403B74 /* ActionSheetDelegate.swift */; };
-		819C93AE1A90B31200403B74 /* AlertFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819C93AD1A90B31200403B74 /* AlertFactory.swift */; };
-		819C93AF1A90B31200403B74 /* AlertFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819C93AD1A90B31200403B74 /* AlertFactory.swift */; };
-		819C93B11A90B4D700403B74 /* StandardAlertFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819C93B01A90B4D700403B74 /* StandardAlertFactory.swift */; };
-		819C93B21A90B4D700403B74 /* StandardAlertFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819C93B01A90B4D700403B74 /* StandardAlertFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,20 +39,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		81932D9D1A90B78000AD2330 /* ActionSheetDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActionSheetDelegate.swift; path = Internal/ActionSheetDelegate.swift; sourceTree = "<group>"; };
+		81932D9E1A90B78000AD2330 /* AlertDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertDelegate.swift; path = Internal/AlertDelegate.swift; sourceTree = "<group>"; };
+		81932D9F1A90B78000AD2330 /* AlertIOS7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertIOS7.swift; path = Internal/AlertIOS7.swift; sourceTree = "<group>"; };
+		81932DA01A90B78000AD2330 /* AlertIOS8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertIOS8.swift; path = Internal/AlertIOS8.swift; sourceTree = "<group>"; };
+		81932DA11A90B78000AD2330 /* DelegateBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DelegateBase.swift; path = Internal/DelegateBase.swift; sourceTree = "<group>"; };
+		81932DAC1A90B78700AD2330 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Alert.swift; path = Public/Alert.swift; sourceTree = "<group>"; };
+		81932DAD1A90B78700AD2330 /* AlertFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertFactory.swift; path = Public/AlertFactory.swift; sourceTree = "<group>"; };
+		81932DAE1A90B78700AD2330 /* StandardAlertFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StandardAlertFactory.swift; path = Public/StandardAlertFactory.swift; sourceTree = "<group>"; };
 		819C937C1A90AE9F00403B74 /* SwiftAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		819C93801A90AE9F00403B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		819C93811A90AE9F00403B74 /* SwiftAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftAlert.h; sourceTree = "<group>"; };
 		819C93871A90AE9F00403B74 /* SwiftAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		819C938D1A90AE9F00403B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		819C938E1A90AE9F00403B74 /* SwiftAlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAlertTests.swift; sourceTree = "<group>"; };
-		819C93991A90B06700403B74 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
-		819C939C1A90B10700403B74 /* AlertIOS8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertIOS8.swift; sourceTree = "<group>"; };
-		819C93A11A90B13400403B74 /* AlertIOS7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertIOS7.swift; sourceTree = "<group>"; };
-		819C93A41A90B1F400403B74 /* DelegateBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelegateBase.swift; sourceTree = "<group>"; };
-		819C93A71A90B21E00403B74 /* AlertDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertDelegate.swift; sourceTree = "<group>"; };
-		819C93AA1A90B27400403B74 /* ActionSheetDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionSheetDelegate.swift; sourceTree = "<group>"; };
-		819C93AD1A90B31200403B74 /* AlertFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertFactory.swift; sourceTree = "<group>"; };
-		819C93B01A90B4D700403B74 /* StandardAlertFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardAlertFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,9 +131,9 @@
 		819C939F1A90B11700403B74 /* Public */ = {
 			isa = PBXGroup;
 			children = (
-				819C93991A90B06700403B74 /* Alert.swift */,
-				819C93AD1A90B31200403B74 /* AlertFactory.swift */,
-				819C93B01A90B4D700403B74 /* StandardAlertFactory.swift */,
+				81932DAC1A90B78700AD2330 /* Alert.swift */,
+				81932DAD1A90B78700AD2330 /* AlertFactory.swift */,
+				81932DAE1A90B78700AD2330 /* StandardAlertFactory.swift */,
 			);
 			name = Public;
 			sourceTree = "<group>";
@@ -141,11 +141,11 @@
 		819C93A01A90B11E00403B74 /* Internal */ = {
 			isa = PBXGroup;
 			children = (
-				819C93A41A90B1F400403B74 /* DelegateBase.swift */,
-				819C93AA1A90B27400403B74 /* ActionSheetDelegate.swift */,
-				819C93A71A90B21E00403B74 /* AlertDelegate.swift */,
-				819C93A11A90B13400403B74 /* AlertIOS7.swift */,
-				819C939C1A90B10700403B74 /* AlertIOS8.swift */,
+				81932D9D1A90B78000AD2330 /* ActionSheetDelegate.swift */,
+				81932D9E1A90B78000AD2330 /* AlertDelegate.swift */,
+				81932D9F1A90B78000AD2330 /* AlertIOS7.swift */,
+				81932DA01A90B78000AD2330 /* AlertIOS8.swift */,
+				81932DA11A90B78000AD2330 /* DelegateBase.swift */,
 			);
 			name = Internal;
 			sourceTree = "<group>";
@@ -257,14 +257,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				819C939A1A90B06700403B74 /* Alert.swift in Sources */,
-				819C939D1A90B10700403B74 /* AlertIOS8.swift in Sources */,
-				819C93AB1A90B27400403B74 /* ActionSheetDelegate.swift in Sources */,
-				819C93A21A90B13400403B74 /* AlertIOS7.swift in Sources */,
-				819C93AE1A90B31200403B74 /* AlertFactory.swift in Sources */,
-				819C93A81A90B21E00403B74 /* AlertDelegate.swift in Sources */,
-				819C93B11A90B4D700403B74 /* StandardAlertFactory.swift in Sources */,
-				819C93A51A90B1F400403B74 /* DelegateBase.swift in Sources */,
+				81932DAF1A90B78700AD2330 /* Alert.swift in Sources */,
+				81932DA21A90B78000AD2330 /* ActionSheetDelegate.swift in Sources */,
+				81932DA81A90B78000AD2330 /* AlertIOS8.swift in Sources */,
+				81932DA41A90B78000AD2330 /* AlertDelegate.swift in Sources */,
+				81932DB11A90B78700AD2330 /* AlertFactory.swift in Sources */,
+				81932DAA1A90B78000AD2330 /* DelegateBase.swift in Sources */,
+				81932DB31A90B78700AD2330 /* StandardAlertFactory.swift in Sources */,
+				81932DA61A90B78000AD2330 /* AlertIOS7.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,15 +272,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				819C93A31A90B13400403B74 /* AlertIOS7.swift in Sources */,
-				819C93A91A90B21E00403B74 /* AlertDelegate.swift in Sources */,
-				819C93AC1A90B27400403B74 /* ActionSheetDelegate.swift in Sources */,
-				819C93B21A90B4D700403B74 /* StandardAlertFactory.swift in Sources */,
-				819C939B1A90B06700403B74 /* Alert.swift in Sources */,
-				819C939E1A90B10700403B74 /* AlertIOS8.swift in Sources */,
-				819C93AF1A90B31200403B74 /* AlertFactory.swift in Sources */,
-				819C93A61A90B1F400403B74 /* DelegateBase.swift in Sources */,
+				81932DA71A90B78000AD2330 /* AlertIOS7.swift in Sources */,
+				81932DAB1A90B78000AD2330 /* DelegateBase.swift in Sources */,
+				81932DA31A90B78000AD2330 /* ActionSheetDelegate.swift in Sources */,
+				81932DB41A90B78700AD2330 /* StandardAlertFactory.swift in Sources */,
+				81932DA51A90B78000AD2330 /* AlertDelegate.swift in Sources */,
 				819C938F1A90AE9F00403B74 /* SwiftAlertTests.swift in Sources */,
+				81932DB21A90B78700AD2330 /* AlertFactory.swift in Sources */,
+				81932DA91A90B78000AD2330 /* AlertIOS8.swift in Sources */,
+				81932DB01A90B78700AD2330 /* Alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +462,7 @@
 				819C93941A90AE9F00403B74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		819C93951A90AE9F00403B74 /* Build configuration list for PBXNativeTarget "SwiftAlertTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +471,7 @@
 				819C93971A90AE9F00403B74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

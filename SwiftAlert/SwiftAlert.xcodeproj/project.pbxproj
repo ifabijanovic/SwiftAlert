@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		816B62E71A925A71006DB9D8 /* TestAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B62E61A925A71006DB9D8 /* TestAlert.swift */; };
+		816B62E81A925A71006DB9D8 /* TestAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B62E61A925A71006DB9D8 /* TestAlert.swift */; };
+		816B62EA1A925A7F006DB9D8 /* TestAlertFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B62E91A925A7F006DB9D8 /* TestAlertFactory.swift */; };
+		816B62EB1A925A7F006DB9D8 /* TestAlertFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B62E91A925A7F006DB9D8 /* TestAlertFactory.swift */; };
+		816B62ED1A925D2A006DB9D8 /* TestAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B62EC1A925D2A006DB9D8 /* TestAlertTests.swift */; };
 		81932DA21A90B78000AD2330 /* ActionSheetDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932D9D1A90B78000AD2330 /* ActionSheetDelegate.swift */; };
 		81932DA31A90B78000AD2330 /* ActionSheetDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932D9D1A90B78000AD2330 /* ActionSheetDelegate.swift */; };
 		81932DA41A90B78000AD2330 /* AlertDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932D9E1A90B78000AD2330 /* AlertDelegate.swift */; };
@@ -25,7 +30,6 @@
 		81932DB41A90B78700AD2330 /* StandardAlertFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932DAE1A90B78700AD2330 /* StandardAlertFactory.swift */; };
 		819C93821A90AE9F00403B74 /* SwiftAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 819C93811A90AE9F00403B74 /* SwiftAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		819C93881A90AE9F00403B74 /* SwiftAlert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 819C937C1A90AE9F00403B74 /* SwiftAlert.framework */; };
-		819C938F1A90AE9F00403B74 /* SwiftAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819C938E1A90AE9F00403B74 /* SwiftAlertTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		816B62E61A925A71006DB9D8 /* TestAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestAlert.swift; path = Public/TestAlert.swift; sourceTree = "<group>"; };
+		816B62E91A925A7F006DB9D8 /* TestAlertFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestAlertFactory.swift; path = Public/TestAlertFactory.swift; sourceTree = "<group>"; };
+		816B62EC1A925D2A006DB9D8 /* TestAlertTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAlertTests.swift; sourceTree = "<group>"; };
 		81932D9D1A90B78000AD2330 /* ActionSheetDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActionSheetDelegate.swift; path = Internal/ActionSheetDelegate.swift; sourceTree = "<group>"; };
 		81932D9E1A90B78000AD2330 /* AlertDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertDelegate.swift; path = Internal/AlertDelegate.swift; sourceTree = "<group>"; };
 		81932D9F1A90B78000AD2330 /* AlertIOS7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertIOS7.swift; path = Internal/AlertIOS7.swift; sourceTree = "<group>"; };
@@ -52,7 +59,6 @@
 		819C93811A90AE9F00403B74 /* SwiftAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftAlert.h; sourceTree = "<group>"; };
 		819C93871A90AE9F00403B74 /* SwiftAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		819C938D1A90AE9F00403B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		819C938E1A90AE9F00403B74 /* SwiftAlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAlertTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +120,8 @@
 		819C938B1A90AE9F00403B74 /* SwiftAlertTests */ = {
 			isa = PBXGroup;
 			children = (
-				819C938E1A90AE9F00403B74 /* SwiftAlertTests.swift */,
 				819C938C1A90AE9F00403B74 /* Supporting Files */,
+				816B62EC1A925D2A006DB9D8 /* TestAlertTests.swift */,
 			);
 			path = SwiftAlertTests;
 			sourceTree = "<group>";
@@ -134,6 +140,8 @@
 				81932DAC1A90B78700AD2330 /* Alert.swift */,
 				81932DAD1A90B78700AD2330 /* AlertFactory.swift */,
 				81932DAE1A90B78700AD2330 /* StandardAlertFactory.swift */,
+				816B62E61A925A71006DB9D8 /* TestAlert.swift */,
+				816B62E91A925A7F006DB9D8 /* TestAlertFactory.swift */,
 			);
 			name = Public;
 			sourceTree = "<group>";
@@ -260,6 +268,8 @@
 				81932DAF1A90B78700AD2330 /* Alert.swift in Sources */,
 				81932DA21A90B78000AD2330 /* ActionSheetDelegate.swift in Sources */,
 				81932DA81A90B78000AD2330 /* AlertIOS8.swift in Sources */,
+				816B62EA1A925A7F006DB9D8 /* TestAlertFactory.swift in Sources */,
+				816B62E71A925A71006DB9D8 /* TestAlert.swift in Sources */,
 				81932DA41A90B78000AD2330 /* AlertDelegate.swift in Sources */,
 				81932DB11A90B78700AD2330 /* AlertFactory.swift in Sources */,
 				81932DAA1A90B78000AD2330 /* DelegateBase.swift in Sources */,
@@ -274,10 +284,12 @@
 			files = (
 				81932DA71A90B78000AD2330 /* AlertIOS7.swift in Sources */,
 				81932DAB1A90B78000AD2330 /* DelegateBase.swift in Sources */,
+				816B62E81A925A71006DB9D8 /* TestAlert.swift in Sources */,
+				816B62ED1A925D2A006DB9D8 /* TestAlertTests.swift in Sources */,
 				81932DA31A90B78000AD2330 /* ActionSheetDelegate.swift in Sources */,
 				81932DB41A90B78700AD2330 /* StandardAlertFactory.swift in Sources */,
+				816B62EB1A925A7F006DB9D8 /* TestAlertFactory.swift in Sources */,
 				81932DA51A90B78000AD2330 /* AlertDelegate.swift in Sources */,
-				819C938F1A90AE9F00403B74 /* SwiftAlertTests.swift in Sources */,
 				81932DB21A90B78700AD2330 /* AlertFactory.swift in Sources */,
 				81932DA91A90B78000AD2330 /* AlertIOS8.swift in Sources */,
 				81932DB01A90B78700AD2330 /* Alert.swift in Sources */,

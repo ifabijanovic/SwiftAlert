@@ -32,6 +32,9 @@
 		81932DB21A90B78700AD2330 /* AlertFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932DAD1A90B78700AD2330 /* AlertFactory.swift */; };
 		819C93821A90AE9F00403B74 /* SwiftAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 819C93811A90AE9F00403B74 /* SwiftAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		819C93881A90AE9F00403B74 /* SwiftAlert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 819C937C1A90AE9F00403B74 /* SwiftAlert.framework */; };
+		81DD07621AA31BB400278130 /* AlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DD07611AA31BB400278130 /* AlertTests.swift */; };
+		81DD07681AA322A000278130 /* TestAlertFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DD07671AA322A000278130 /* TestAlertFactoryTests.swift */; };
+		81DD076A1AA323FC00278130 /* TestAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DD07691AA323FC00278130 /* TestAlertTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,9 @@
 		819C93811A90AE9F00403B74 /* SwiftAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftAlert.h; sourceTree = "<group>"; };
 		819C93871A90AE9F00403B74 /* SwiftAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		819C938D1A90AE9F00403B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81DD07611AA31BB400278130 /* AlertTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertTests.swift; path = Public/AlertTests.swift; sourceTree = "<group>"; };
+		81DD07671AA322A000278130 /* TestAlertFactoryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestAlertFactoryTests.swift; path = Public/Testing/TestAlertFactoryTests.swift; sourceTree = "<group>"; };
+		81DD07691AA323FC00278130 /* TestAlertTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestAlertTests.swift; path = Public/Testing/TestAlertTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,9 +128,9 @@
 		813B89BD1AA315060019F2F3 /* Delegate */ = {
 			isa = PBXGroup;
 			children = (
-				813B89BE1AA315260019F2F3 /* DelegateBaseTests.swift */,
-				813B89C01AA318130019F2F3 /* AlertDelegateTests.swift */,
 				813B89C21AA31A6A0019F2F3 /* ActionSheetDelegateTests.swift */,
+				813B89C01AA318130019F2F3 /* AlertDelegateTests.swift */,
+				813B89BE1AA315260019F2F3 /* DelegateBaseTests.swift */,
 			);
 			name = Delegate;
 			sourceTree = "<group>";
@@ -170,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				813B89BC1AA314FF0019F2F3 /* Internal */,
+				81DD07601AA31B8A00278130 /* Public */,
 				819C938C1A90AE9F00403B74 /* Supporting Files */,
 			);
 			path = SwiftAlertTests;
@@ -202,6 +209,24 @@
 				81932DA01A90B78000AD2330 /* AlertIOS8.swift */,
 			);
 			name = Internal;
+			sourceTree = "<group>";
+		};
+		81DD07601AA31B8A00278130 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				81DD07661AA3228600278130 /* Testing */,
+				81DD07611AA31BB400278130 /* AlertTests.swift */,
+			);
+			name = Public;
+			sourceTree = "<group>";
+		};
+		81DD07661AA3228600278130 /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				81DD07671AA322A000278130 /* TestAlertFactoryTests.swift */,
+				81DD07691AA323FC00278130 /* TestAlertTests.swift */,
+			);
+			name = Testing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,6 +361,9 @@
 				812330021AA3136600EB1BA6 /* TestAlertFactory.swift in Sources */,
 				812330001AA3136600EB1BA6 /* TestAlert.swift in Sources */,
 				813B89BF1AA315260019F2F3 /* DelegateBaseTests.swift in Sources */,
+				81DD07681AA322A000278130 /* TestAlertFactoryTests.swift in Sources */,
+				81DD07621AA31BB400278130 /* AlertTests.swift in Sources */,
+				81DD076A1AA323FC00278130 /* TestAlertTests.swift in Sources */,
 				81932DB21A90B78700AD2330 /* AlertFactory.swift in Sources */,
 				813B89C11AA318130019F2F3 /* AlertDelegateTests.swift in Sources */,
 				81932DA91A90B78000AD2330 /* AlertIOS8.swift in Sources */,

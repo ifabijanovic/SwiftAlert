@@ -15,7 +15,6 @@ internal class AlertDelegate : DelegateBase, UIAlertViewDelegate {
     init(alertView: UIAlertView, cb: (Int) -> ()) {
         super.init(cb: cb)
         alertView.delegate = self
-        
     }
     
     // MARK: - UIAlertViewDelegate

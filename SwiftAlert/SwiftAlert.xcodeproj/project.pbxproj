@@ -7,27 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		816B62E71A925A71006DB9D8 /* TestAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B62E61A925A71006DB9D8 /* TestAlert.swift */; };
-		816B62E81A925A71006DB9D8 /* TestAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B62E61A925A71006DB9D8 /* TestAlert.swift */; };
-		816B62EA1A925A7F006DB9D8 /* TestAlertFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B62E91A925A7F006DB9D8 /* TestAlertFactory.swift */; };
-		816B62EB1A925A7F006DB9D8 /* TestAlertFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B62E91A925A7F006DB9D8 /* TestAlertFactory.swift */; };
-		816B62ED1A925D2A006DB9D8 /* TestAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B62EC1A925D2A006DB9D8 /* TestAlertTests.swift */; };
-		81932DA21A90B78000AD2330 /* ActionSheetDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932D9D1A90B78000AD2330 /* ActionSheetDelegate.swift */; };
-		81932DA31A90B78000AD2330 /* ActionSheetDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932D9D1A90B78000AD2330 /* ActionSheetDelegate.swift */; };
-		81932DA41A90B78000AD2330 /* AlertDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932D9E1A90B78000AD2330 /* AlertDelegate.swift */; };
-		81932DA51A90B78000AD2330 /* AlertDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932D9E1A90B78000AD2330 /* AlertDelegate.swift */; };
+		81232FFF1AA3136600EB1BA6 /* TestAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81232FFD1AA3136600EB1BA6 /* TestAlert.swift */; };
+		812330001AA3136600EB1BA6 /* TestAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81232FFD1AA3136600EB1BA6 /* TestAlert.swift */; };
+		812330011AA3136600EB1BA6 /* TestAlertFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81232FFE1AA3136600EB1BA6 /* TestAlertFactory.swift */; };
+		812330021AA3136600EB1BA6 /* TestAlertFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81232FFE1AA3136600EB1BA6 /* TestAlertFactory.swift */; };
+		812330041AA3136D00EB1BA6 /* UIAlertFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812330031AA3136D00EB1BA6 /* UIAlertFactory.swift */; };
+		812330051AA3136D00EB1BA6 /* UIAlertFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812330031AA3136D00EB1BA6 /* UIAlertFactory.swift */; };
+		8123300A1AA3144A00EB1BA6 /* ActionSheetDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812330071AA3144A00EB1BA6 /* ActionSheetDelegate.swift */; };
+		8123300B1AA3144A00EB1BA6 /* ActionSheetDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812330071AA3144A00EB1BA6 /* ActionSheetDelegate.swift */; };
+		8123300C1AA3144A00EB1BA6 /* AlertDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812330081AA3144A00EB1BA6 /* AlertDelegate.swift */; };
+		8123300D1AA3144A00EB1BA6 /* AlertDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812330081AA3144A00EB1BA6 /* AlertDelegate.swift */; };
+		8123300E1AA3144A00EB1BA6 /* DelegateBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812330091AA3144A00EB1BA6 /* DelegateBase.swift */; };
+		8123300F1AA3144A00EB1BA6 /* DelegateBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812330091AA3144A00EB1BA6 /* DelegateBase.swift */; };
+		813B89BF1AA315260019F2F3 /* DelegateBaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813B89BE1AA315260019F2F3 /* DelegateBaseTests.swift */; };
+		813B89C11AA318130019F2F3 /* AlertDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813B89C01AA318130019F2F3 /* AlertDelegateTests.swift */; };
+		813B89C31AA31A6A0019F2F3 /* ActionSheetDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813B89C21AA31A6A0019F2F3 /* ActionSheetDelegateTests.swift */; };
 		81932DA61A90B78000AD2330 /* AlertIOS7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932D9F1A90B78000AD2330 /* AlertIOS7.swift */; };
 		81932DA71A90B78000AD2330 /* AlertIOS7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932D9F1A90B78000AD2330 /* AlertIOS7.swift */; };
 		81932DA81A90B78000AD2330 /* AlertIOS8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932DA01A90B78000AD2330 /* AlertIOS8.swift */; };
 		81932DA91A90B78000AD2330 /* AlertIOS8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932DA01A90B78000AD2330 /* AlertIOS8.swift */; };
-		81932DAA1A90B78000AD2330 /* DelegateBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932DA11A90B78000AD2330 /* DelegateBase.swift */; };
-		81932DAB1A90B78000AD2330 /* DelegateBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932DA11A90B78000AD2330 /* DelegateBase.swift */; };
 		81932DAF1A90B78700AD2330 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932DAC1A90B78700AD2330 /* Alert.swift */; };
 		81932DB01A90B78700AD2330 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932DAC1A90B78700AD2330 /* Alert.swift */; };
 		81932DB11A90B78700AD2330 /* AlertFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932DAD1A90B78700AD2330 /* AlertFactory.swift */; };
 		81932DB21A90B78700AD2330 /* AlertFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932DAD1A90B78700AD2330 /* AlertFactory.swift */; };
-		81932DB31A90B78700AD2330 /* StandardAlertFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932DAE1A90B78700AD2330 /* StandardAlertFactory.swift */; };
-		81932DB41A90B78700AD2330 /* StandardAlertFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81932DAE1A90B78700AD2330 /* StandardAlertFactory.swift */; };
 		819C93821A90AE9F00403B74 /* SwiftAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 819C93811A90AE9F00403B74 /* SwiftAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		819C93881A90AE9F00403B74 /* SwiftAlert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 819C937C1A90AE9F00403B74 /* SwiftAlert.framework */; };
 /* End PBXBuildFile section */
@@ -43,17 +45,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		816B62E61A925A71006DB9D8 /* TestAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestAlert.swift; path = Public/TestAlert.swift; sourceTree = "<group>"; };
-		816B62E91A925A7F006DB9D8 /* TestAlertFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestAlertFactory.swift; path = Public/TestAlertFactory.swift; sourceTree = "<group>"; };
-		816B62EC1A925D2A006DB9D8 /* TestAlertTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAlertTests.swift; sourceTree = "<group>"; };
-		81932D9D1A90B78000AD2330 /* ActionSheetDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActionSheetDelegate.swift; path = Internal/ActionSheetDelegate.swift; sourceTree = "<group>"; };
-		81932D9E1A90B78000AD2330 /* AlertDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertDelegate.swift; path = Internal/AlertDelegate.swift; sourceTree = "<group>"; };
+		81232FFD1AA3136600EB1BA6 /* TestAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestAlert.swift; path = Public/Testing/TestAlert.swift; sourceTree = "<group>"; };
+		81232FFE1AA3136600EB1BA6 /* TestAlertFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestAlertFactory.swift; path = Public/Testing/TestAlertFactory.swift; sourceTree = "<group>"; };
+		812330031AA3136D00EB1BA6 /* UIAlertFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIAlertFactory.swift; path = Public/Usage/UIAlertFactory.swift; sourceTree = "<group>"; };
+		812330071AA3144A00EB1BA6 /* ActionSheetDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActionSheetDelegate.swift; path = Internal/Delegate/ActionSheetDelegate.swift; sourceTree = "<group>"; };
+		812330081AA3144A00EB1BA6 /* AlertDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertDelegate.swift; path = Internal/Delegate/AlertDelegate.swift; sourceTree = "<group>"; };
+		812330091AA3144A00EB1BA6 /* DelegateBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DelegateBase.swift; path = Internal/Delegate/DelegateBase.swift; sourceTree = "<group>"; };
+		813B89BE1AA315260019F2F3 /* DelegateBaseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DelegateBaseTests.swift; path = Internal/Delegate/DelegateBaseTests.swift; sourceTree = "<group>"; };
+		813B89C01AA318130019F2F3 /* AlertDelegateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertDelegateTests.swift; path = Internal/Delegate/AlertDelegateTests.swift; sourceTree = "<group>"; };
+		813B89C21AA31A6A0019F2F3 /* ActionSheetDelegateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActionSheetDelegateTests.swift; path = Internal/Delegate/ActionSheetDelegateTests.swift; sourceTree = "<group>"; };
 		81932D9F1A90B78000AD2330 /* AlertIOS7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertIOS7.swift; path = Internal/AlertIOS7.swift; sourceTree = "<group>"; };
 		81932DA01A90B78000AD2330 /* AlertIOS8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertIOS8.swift; path = Internal/AlertIOS8.swift; sourceTree = "<group>"; };
-		81932DA11A90B78000AD2330 /* DelegateBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DelegateBase.swift; path = Internal/DelegateBase.swift; sourceTree = "<group>"; };
 		81932DAC1A90B78700AD2330 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Alert.swift; path = Public/Alert.swift; sourceTree = "<group>"; };
 		81932DAD1A90B78700AD2330 /* AlertFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertFactory.swift; path = Public/AlertFactory.swift; sourceTree = "<group>"; };
-		81932DAE1A90B78700AD2330 /* StandardAlertFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StandardAlertFactory.swift; path = Public/StandardAlertFactory.swift; sourceTree = "<group>"; };
 		819C937C1A90AE9F00403B74 /* SwiftAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		819C93801A90AE9F00403B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		819C93811A90AE9F00403B74 /* SwiftAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftAlert.h; sourceTree = "<group>"; };
@@ -80,6 +84,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81232FFB1AA3133000EB1BA6 /* Usage */ = {
+			isa = PBXGroup;
+			children = (
+				812330031AA3136D00EB1BA6 /* UIAlertFactory.swift */,
+			);
+			name = Usage;
+			sourceTree = "<group>";
+		};
+		81232FFC1AA3133500EB1BA6 /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				81232FFD1AA3136600EB1BA6 /* TestAlert.swift */,
+				81232FFE1AA3136600EB1BA6 /* TestAlertFactory.swift */,
+			);
+			name = Testing;
+			sourceTree = "<group>";
+		};
+		812330061AA3142A00EB1BA6 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				812330071AA3144A00EB1BA6 /* ActionSheetDelegate.swift */,
+				812330081AA3144A00EB1BA6 /* AlertDelegate.swift */,
+				812330091AA3144A00EB1BA6 /* DelegateBase.swift */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		813B89BC1AA314FF0019F2F3 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				813B89BD1AA315060019F2F3 /* Delegate */,
+			);
+			name = Internal;
+			sourceTree = "<group>";
+		};
+		813B89BD1AA315060019F2F3 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				813B89BE1AA315260019F2F3 /* DelegateBaseTests.swift */,
+				813B89C01AA318130019F2F3 /* AlertDelegateTests.swift */,
+				813B89C21AA31A6A0019F2F3 /* ActionSheetDelegateTests.swift */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
 		819C93721A90AE9F00403B74 = {
 			isa = PBXGroup;
 			children = (
@@ -120,8 +169,8 @@
 		819C938B1A90AE9F00403B74 /* SwiftAlertTests */ = {
 			isa = PBXGroup;
 			children = (
+				813B89BC1AA314FF0019F2F3 /* Internal */,
 				819C938C1A90AE9F00403B74 /* Supporting Files */,
-				816B62EC1A925D2A006DB9D8 /* TestAlertTests.swift */,
 			);
 			path = SwiftAlertTests;
 			sourceTree = "<group>";
@@ -137,11 +186,10 @@
 		819C939F1A90B11700403B74 /* Public */ = {
 			isa = PBXGroup;
 			children = (
+				81232FFC1AA3133500EB1BA6 /* Testing */,
+				81232FFB1AA3133000EB1BA6 /* Usage */,
 				81932DAC1A90B78700AD2330 /* Alert.swift */,
 				81932DAD1A90B78700AD2330 /* AlertFactory.swift */,
-				81932DAE1A90B78700AD2330 /* StandardAlertFactory.swift */,
-				816B62E61A925A71006DB9D8 /* TestAlert.swift */,
-				816B62E91A925A7F006DB9D8 /* TestAlertFactory.swift */,
 			);
 			name = Public;
 			sourceTree = "<group>";
@@ -149,11 +197,9 @@
 		819C93A01A90B11E00403B74 /* Internal */ = {
 			isa = PBXGroup;
 			children = (
-				81932D9D1A90B78000AD2330 /* ActionSheetDelegate.swift */,
-				81932D9E1A90B78000AD2330 /* AlertDelegate.swift */,
+				812330061AA3142A00EB1BA6 /* Delegate */,
 				81932D9F1A90B78000AD2330 /* AlertIOS7.swift */,
 				81932DA01A90B78000AD2330 /* AlertIOS8.swift */,
-				81932DA11A90B78000AD2330 /* DelegateBase.swift */,
 			);
 			name = Internal;
 			sourceTree = "<group>";
@@ -266,14 +312,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				81932DAF1A90B78700AD2330 /* Alert.swift in Sources */,
-				81932DA21A90B78000AD2330 /* ActionSheetDelegate.swift in Sources */,
+				8123300C1AA3144A00EB1BA6 /* AlertDelegate.swift in Sources */,
+				812330041AA3136D00EB1BA6 /* UIAlertFactory.swift in Sources */,
+				8123300E1AA3144A00EB1BA6 /* DelegateBase.swift in Sources */,
+				81232FFF1AA3136600EB1BA6 /* TestAlert.swift in Sources */,
+				812330011AA3136600EB1BA6 /* TestAlertFactory.swift in Sources */,
 				81932DA81A90B78000AD2330 /* AlertIOS8.swift in Sources */,
-				816B62EA1A925A7F006DB9D8 /* TestAlertFactory.swift in Sources */,
-				816B62E71A925A71006DB9D8 /* TestAlert.swift in Sources */,
-				81932DA41A90B78000AD2330 /* AlertDelegate.swift in Sources */,
 				81932DB11A90B78700AD2330 /* AlertFactory.swift in Sources */,
-				81932DAA1A90B78000AD2330 /* DelegateBase.swift in Sources */,
-				81932DB31A90B78700AD2330 /* StandardAlertFactory.swift in Sources */,
+				8123300A1AA3144A00EB1BA6 /* ActionSheetDelegate.swift in Sources */,
 				81932DA61A90B78000AD2330 /* AlertIOS7.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,15 +329,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				81932DA71A90B78000AD2330 /* AlertIOS7.swift in Sources */,
-				81932DAB1A90B78000AD2330 /* DelegateBase.swift in Sources */,
-				816B62E81A925A71006DB9D8 /* TestAlert.swift in Sources */,
-				816B62ED1A925D2A006DB9D8 /* TestAlertTests.swift in Sources */,
-				81932DA31A90B78000AD2330 /* ActionSheetDelegate.swift in Sources */,
-				81932DB41A90B78700AD2330 /* StandardAlertFactory.swift in Sources */,
-				816B62EB1A925A7F006DB9D8 /* TestAlertFactory.swift in Sources */,
-				81932DA51A90B78000AD2330 /* AlertDelegate.swift in Sources */,
+				812330051AA3136D00EB1BA6 /* UIAlertFactory.swift in Sources */,
+				8123300B1AA3144A00EB1BA6 /* ActionSheetDelegate.swift in Sources */,
+				8123300D1AA3144A00EB1BA6 /* AlertDelegate.swift in Sources */,
+				813B89C31AA31A6A0019F2F3 /* ActionSheetDelegateTests.swift in Sources */,
+				812330021AA3136600EB1BA6 /* TestAlertFactory.swift in Sources */,
+				812330001AA3136600EB1BA6 /* TestAlert.swift in Sources */,
+				813B89BF1AA315260019F2F3 /* DelegateBaseTests.swift in Sources */,
 				81932DB21A90B78700AD2330 /* AlertFactory.swift in Sources */,
+				813B89C11AA318130019F2F3 /* AlertDelegateTests.swift in Sources */,
 				81932DA91A90B78000AD2330 /* AlertIOS8.swift in Sources */,
+				8123300F1AA3144A00EB1BA6 /* DelegateBase.swift in Sources */,
 				81932DB01A90B78700AD2330 /* Alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,5 +1,5 @@
 //
-//  StandardAlertFactory.swift
+//  UIAlertFactory.swift
 //  SwiftAlert
 //
 //  Created by Ivan Fabijanovic on 15/02/15.
@@ -8,13 +8,17 @@
 
 import UIKit
 
-class StandardAlertFactory: AlertFactory {
-   
+class UIAlertFactory: AlertFactory {
+    
+    // MARK: - Constants
+    
+    private let useNewApi = objc_getClass("UIAlertController") != nil
+    
     // MARK: - Public methods
     
     func createActionSheet(presenter: UIViewController, title: String, buttons: (style: UIAlertActionStyle, title: String, handler: (() -> ())?)...) -> Alert {
         
-        if objc_getClass("UIAlertController") != nil {
+        if self.useNewApi {
             return AlertIOS8(presenter: presenter, title: title, buttons: buttons)
         } else {
             return AlertIOS7(presenter: presenter, title: title, buttons: buttons)
@@ -24,7 +28,7 @@ class StandardAlertFactory: AlertFactory {
     
     func createAlert(presenter: UIViewController, title: String, message: String, buttons: (style: UIAlertActionStyle, title: String, handler: (() -> ())?)...) -> Alert {
         
-        if objc_getClass("UIAlertController") != nil {
+        if self.useNewApi {
             return AlertIOS8(presenter: presenter, title: title, message: message, buttons: buttons)
         } else {
             return AlertIOS7(presenter: presenter, title: title, message: message, buttons: buttons)
